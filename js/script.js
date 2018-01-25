@@ -10,9 +10,9 @@ window.setInterval(printQuote, 30000);
 
 //  applies random background color when the printQuote function passes
 function getRandomColor() {
-    let red = Math.floor(Math.random() * 256 );
-    let green = Math.floor(Math.random() * 256 );
-    let blue = Math.floor(Math.random() * 256 );
+    let red = Math.floor(Math.random() * 230 );
+    let green = Math.floor(Math.random() * 230 );
+    let blue = Math.floor(Math.random() * 230 );
     let rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
 
     document.body.style.background = rgbColor;
