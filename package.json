@@ -1,0 +1,16 @@
+{
+  "name": "random-quote-generator",
+  "version": "1.0.0",
+  "description": "Random Quote Generator. Treehouse Project 1.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jessica Van Rooyen",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2"
+  }
+}

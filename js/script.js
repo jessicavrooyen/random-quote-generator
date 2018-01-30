@@ -1,7 +1,7 @@
 
 // create a function named getRandomQuote which selects a random quote then return selected quote
 function getRandomQuote() {
-	randomQuote = Math.floor(Math.random() * quotes.length);
+    randomQuote = Math.floor(Math.random() * quotes.length);
 	return quotes[randomQuote];
 }
 
